@@ -22,12 +22,14 @@
        		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        			<span class="navbar-toggler-icon"></span>
        		</button>
-			<img width="3%" src="../images/Web gamIng Company Logo.jpeg" alt="">
+			<a href="Index.html"><img class="" width="70" src="../images/Web gamIng Company Logo.jpeg" alt=" This is the logo of the company"></a>
 			<h1>Welsh Games</h1>
+			<hr>
+			
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
           		<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-                		<a class="nav-link" href="Homepage.html">Home <span class="sr-only">(current)</span></a>
+                		<a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
              		</li>
                     <li class="nav-item active">
                 	    <a class="nav-link" href="Evil Owl.html">Evil Owl <span class="sr-only">(current)</span></a>
@@ -39,11 +41,36 @@
                 		<a class="nav-link" href="Blackdragon.html">Black Dragon </a>
              		</li>
              		<li class="nav-item active">
-                		<a class="nav-link" href="contact-me.html">Forms </a>
+                		<a class="nav-link" href="contact-me.html">Contact Me  </a>
              		</li>
              		<li class="nav-item active">
                 		<a class="nav-link" href="hyperlinks.html">Hyperlinks </a>
              		</li>
+					<li class="nav-item dropdown">
+<a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                            Accessibility Options
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<label class="dropdown-item">
+								<input type="checkbox" id="high-contrast-toggle" /> High Contrast Mode
+								</label>
+								<label class="dropdown-item">
+								<input type="checkbox" id="large-text-toggle" /> Larger Text
+								</label>
+								<label class="dropdown-item">
+								<input type="checkbox" id="accessible-font-toggle" /> Accessible Font
+								</label>
+								<button class="dropdown-item" onclick="resetAccessibility()">Reset</button>
+								</div>
+								</li>
+					
           		</ul>
 				
        		</div>	
@@ -61,7 +88,7 @@
 						<table>
 							<tr>
 								<td><label for="name">Name</label><br>
-								<input type="text" size="50%" id="name" name="name" placeholder="Your name..."></td>
+								<input type="email" size="50%" id="name" name="name" placeholder="Your name..."></td>
 							</tr>
 							<tr>
 								<td><label for="email">Email address</label><br>
@@ -111,6 +138,9 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed --> 
 		<script src="../js/popper.min.js"></script>
 		<script src="../js/bootstrap-4.4.1.js"></script>
+		<script src="../js/Accessibility js.js"></script>
+		<script src="../js/Email.js"></script>
+
 
 	</body>
 	
